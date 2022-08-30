@@ -37,7 +37,7 @@ Write a SQL query to produce a list of the names of the facilities that do. */
 
 SELECT *
 FROM Facilities
-WHERE membercost=0.0;
+WHERE membercost!=0.0;
 
 /* Q2: How many facilities do not charge a fee to members? */
 
